@@ -8,32 +8,41 @@
 
 В результате тестирования выявлены следующие дефекты:
 
-* [#1]()
-* [#2]()
+* [#1](https://github.com/YesPechenko/Credit-Card-Number-Validator/issues/1#issue-728789540)
+* [#2](https://github.com/YesPechenko/Credit-Card-Number-Validator/issues/2#issue-728789567)
 
 ## Описание процесса тестирования
 
 В процессе тестирования использовались следующие артефакты:
 
-*[Руководство по установке IntelliJ IDEA](https://github.com/netology-code/javaqa-homeworks/blob/master/intro/idea.md)
+* [Руководство по установке IntelliJ IDEA](https://github.com/netology-code/javaqa-homeworks/blob/master/intro/idea.md)
 
 
 В качестве тестовых данных использовались данные 
-*[Fake credit card numbers for all major brands] (https://www.freeformatter.com/credit-card-number-generator-validator.html)
+* [Fake credit card numbers for all major brands](https://www.freeformatter.com/credit-card-number-generator-validator.html)
 
-*VISA:
-4532716681438826	
+* VISA:
+
+4532716681438826
+	
 4024007146149611
-4485188817166844738 Result is FAIL
 
-*Discover:
+4485188817166844738 
+
+* Discover:
+
 6011448974271996
-6011472115765294
-6011806486227209648 Result is FAIL
 
-*MasterCard:
+6011472115765294
+
+6011806486227209648 
+
+* MasterCard:
+
 2221002816999192
+
 2720998600580369
+
 5456363851210054
 
 Тестирование производилось в следующем окружении:
