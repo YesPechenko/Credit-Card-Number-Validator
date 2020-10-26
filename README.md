@@ -1,6 +1,6 @@
 # Отчёт о тестировании <Credit Card Number Validator>
 
-## Проверить работу программы, которая помогает осуществлять приём платежей с банковских карт различным организациям
+## Проверить работу программы Credit Card Number Validator, которая помогает осуществлять приём платежей с банковских карт различным организациям
 
 24.10.2020г. - 24.10.2020г. было проведено функциональное тестирование приложения Credit Card Number Validator.
 
@@ -8,42 +8,41 @@
 
 В результате тестирования выявлены следующие дефекты:
 
-* [#1](https://github.com/YesPechenko/Credit-Card-Number-Validator/issues/1#issue-728789540)
-* [#2](https://github.com/YesPechenko/Credit-Card-Number-Validator/issues/2#issue-728789567)
+* [программа Credit Card Number Validator не осуществляет приём платежей](https://github.com/YesPechenko/Credit-Card-Number-Validator/issues/1#issue-728789540)
 
 ## Описание процесса тестирования
 
 В процессе тестирования использовались следующие артефакты:
 
-* [Руководство по установке IntelliJ IDEA](https://github.com/netology-code/javaqa-homeworks/blob/master/intro/idea.md)
+[Руководство по установке IntelliJ IDEA](https://github.com/netology-code/javaqa-homeworks/blob/master/intro/idea.md)
 
 
 В качестве тестовых данных использовались данные 
-* [Fake credit card numbers for all major brands](https://www.freeformatter.com/credit-card-number-generator-validator.html)
+[Fake credit card numbers for all major brands](https://www.freeformatter.com/credit-card-number-generator-validator.html)
 
-* VISA:
+VISA:
 
-4532716681438826
+* 4532716681438826
 	
-4024007146149611
+* 4024007146149611
 
-4485188817166844738 
+* 4485188817166844738 
 
-* Discover:
+Discover:
 
-6011448974271996
+* 6011448974271996
 
-6011472115765294
+* 6011472115765294
 
-6011806486227209648 
+* 6011806486227209648 
 
-* MasterCard:
+MasterCard:
 
-2221002816999192
+* 2221002816999192
 
-2720998600580369
+* 2720998600580369
 
-5456363851210054
+* 5456363851210054
 
 Тестирование производилось в следующем окружении:
 * Windows 10, 64-битная версия
